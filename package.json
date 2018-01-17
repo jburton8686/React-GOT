@@ -1,0 +1,18 @@
+{
+  "name": "game-of-thrones",
+  "description": "Dragons!!!!! We have a react app, that has an exported object 'houses' that is an array of objects. \n1. Set that array to a state value in the component App\n2. In a new Component called HouseList Transform this array of objects into an array of react elements displaying the house name and image.\n3. render the unordered list of react elements created after the h2 in the App component. ",
+  "version": "0.0.1",
+  "dependencies": {
+    "react-dom": "16.0.0",
+    "react": "16.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

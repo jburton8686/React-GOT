@@ -1,0 +1,16 @@
+import React from 'react';
+
+const HouseList = props => {
+    const houseItems = props.houses.map(house => (
+        <ul>
+        {props.houses.map(house => (
+            <li>
+            <p>{house.familyName}</p>
+            <img src={house.banner} />
+            </li>
+        ))}
+        </ul>
+    );
+};
+
+export default HouseList;
